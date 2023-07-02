@@ -1,0 +1,70 @@
+<!--
+Mastering on React JS, Next JS & Prisma course
+Assignment - 04, Module - 04
+Submitted by Md. Rasel Rana, email: rasel.learn22@gmail.com
+date: 04/07/2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Card</title>
+    <!--CSS file linked-->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!--Bootstraps file linked-->
+
+    <!--Box Icon-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="centered-header">
+      <h2>E-commerce site</h2>
+    </header>
+    <!--Container which contain the products and the card-->
+    <div class="container">
+
+      <!-- The product title and shop card section-->
+      <section class="product_card_section">
+        <div class="sectionAndCard">
+          <h2 class="section-title">shop product</h2>
+          <i class="bx bx-shopping-bag" id="card-icon"></i>
+        </div>
+        <div class="card">
+          <h2 class="card-title">Your cart</h2>
+          <!--card content-->
+          <div class="card-container"> </div>
+          <div class="cardClearBtn">Clear Card</div>
+          <!--Total Price-->
+          <div class="total">
+            <h2 class="total-title">Overall Total:</h2>
+            <div class="total-price">&#2547 0</div>
+          </div>
+
+          <!--But button-->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!--Card Close-->
+          <i class='bx bx-x' id="close-card"></i>
+        </div>
+      </section>
+
+      <!--The product section-->
+      <section class="productList">
+        <!--Content-->
+        <div class="shop-content"></div>
+      </section>
+    </div>
+    <footer>
+      <a href="#">Created by Md. Rasel Rana</a>
+    </footer>
+
+    <!-- JS Files  -->
+    <script type="module" src="app.js"></script>
+    <script type="module" src="product.js"></script>
+    <script type="module" src="card.js"></script>
+  </body>
+</html>
