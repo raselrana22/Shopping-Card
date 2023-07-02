@@ -1,0 +1,8 @@
+Mastering on React JS, Next JS & Prisma course
+Assignment - 04, Module - 04
+Submitted by Md. Rasel Rana, email: rasel.learn22@gmail.com
+date: 04/07/2023
+
+
+Project Name: Shopping Card
+Netlify Site adress: https://rasel22-shopping-card.netlify.app/
