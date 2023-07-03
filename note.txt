@@ -5,4 +5,8 @@ date: 04/07/2023
 
 
 Project Name: Shopping Card
-Netlify Site adress: https://rasel22-shopping-card.netlify.app/
+Netlify Site address: https://rasel22-shopping-card.netlify.app/
+
+I Include all functions as based on the instruction, and check 
+after deployment at netlify its working, Please give a feedback.
+Thank you very much  
